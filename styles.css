@@ -18,23 +18,31 @@ a:active {
 a:hover {
     text-decoration: underline;
 }
-.avatar {
-    width: 310px;
-    border-radius: 20px;
-    box-shadow: 4px 4px 14px 10px rgba(0,0,0,0.25);
-    
-}
+
+.avatar { 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+  } 
+.avatar img { 
+    display: block; 
+    width: 310px; 
+    height: auto; 
+    border-radius: 20px; 
+    box-shadow: 4px 4px 14px 10px rgba(0, 0, 0, 0.25); 
+    object-fit: scale-down; 
+  }
 /*.logo {
     width: 170px;
     border-radius: 50%;
     box-shadow: 4px 4px 14px 10px rgba(0,0,0,0.25);
 }*/
-.info {
-    display: flex;
-    margin-bottom: 20px;
-    color: rgb(17, 41, 41);
-
-}
+.info { 
+    display: flex; 
+    margin-bottom: 20px; 
+    color: rgb(17, 41, 41); 
+    justify-content: space-between; 
+  }
 .info-text {
     margin-left: 40px;
 }
